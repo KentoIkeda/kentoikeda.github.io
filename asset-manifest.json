@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kentoikeda.github.io/static/css/main.85445038.css",
+    "main.js": "/kentoikeda.github.io/static/js/main.b24bf3ac.js",
+    "static/js/453.16803312.chunk.js": "/kentoikeda.github.io/static/js/453.16803312.chunk.js",
+    "index.html": "/kentoikeda.github.io/index.html",
+    "main.85445038.css.map": "/kentoikeda.github.io/static/css/main.85445038.css.map",
+    "main.b24bf3ac.js.map": "/kentoikeda.github.io/static/js/main.b24bf3ac.js.map",
+    "453.16803312.chunk.js.map": "/kentoikeda.github.io/static/js/453.16803312.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85445038.css",
+    "static/js/main.b24bf3ac.js"
+  ]
+}
