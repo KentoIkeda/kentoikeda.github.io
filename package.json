@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
 
-  "homepage": "https://kentoikeda.github.io/kentoikeda.github.io/",
+  "homepage": "https://kentoikeda.github.io/",
 
   "scripts": {
     "start": "react-scripts start",
