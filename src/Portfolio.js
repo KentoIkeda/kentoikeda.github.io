@@ -78,7 +78,7 @@ export default function Portfolio() {
       title: "美容師向け確定申告支援サービス",
       year: "2023 - 現在",
       description: "",
-      tech: ["PHP", "CodeIgniter", "Sass", "MySQL", "JavaScript", "UI/UX Tuning"],
+      tech: ["PHP", "CodeIgniter", "Sass", "MySQL", "JavaScript", "jQuery", "UI/UX Tuning", "EC2", "S3", "RDS"],
       link: "https://mobalab.net/works/accountech/",
       github: ""
     },
@@ -86,7 +86,7 @@ export default function Portfolio() {
       title: "選挙情報プラットフォーム",
       year: "2025",
       description: "",
-      tech: ["PHP", "Laravel", "MySQL", "JavaScript", "JSON Data Management", "UI/UX Tuning"],
+      tech: ["PHP", "Laravel", "MySQL", "JavaScript", "JSON Data Management", "UI/UX Tuning", "EC2"],
       link: "https://mobalab.net/works/senkyocom/",
       github: ""
     },
@@ -101,16 +101,16 @@ export default function Portfolio() {
     {
       title: "百人一首の達人",
       year: "2014",
-      description: "",
-      tech: ["Visual Basic", "HTML5/CSS3"],
+      description: "平成26年度全商プログラミングコンテスト優秀賞受賞作品。Windows大型タブレットPC向けの百人一首プレイアプリケーションの開発に従事。",
+      tech: ["Visual Basic", "HTML5", "CSS3", "JavaScript"],
       link: "https://www.youtube.com/watch?v=dkZON4t2Iu4",
       github: "https://github.com/KentoIkeda/hyakuninissyunotatsujin",
     },
     {
       title: "THE INTERVIEW+",
       year: "2013",
-      description: "",
-      tech: ["Visual Basic", "HTML5/CSS3"],
+      description: "平成25年度全商プログラミングコンテスト優良賞受賞作品。WindowsタブレットPC向けの面接ロールプレイングアプリケーションの開発に従事。",
+      tech: ["Visual Basic", "HTML5", "CSS3", "JavaScript"],
       link: "",
       github: "https://github.com/KentoIkeda/the_interview_plus",
     },
