@@ -75,27 +75,44 @@ export default function Portfolio() {
 
   const works = [
     {
-      title: "Eコマースプラットフォーム",
-      year: "2024",
-      description: "モダンなUIとスムーズなUXを備えた、フルスタックのオンラインショッピングサイト。決済システムと在庫管理機能を実装。",
-      tech: ["React", "Node.js", "PostgreSQL"],
-      link: "https://example.com",
-      github: "https://github.com/username/project1",
+      title: "美容師向け確定申告支援サービス",
+      year: "2023 - 現在",
+      description: "",
+      tech: ["PHP", "CodeIgniter", "Sass", "MySQL", "JavaScript", "UI/UX Tuning"],
+      link: "https://mobalab.net/works/accountech/",
+      github: ""
     },
     {
-      title: "タスク管理アプリ",
-      year: "2023",
-      description: "チーム向けのプロジェクト管理ツール。リアルタイム同期とドラッグ&ドロップ機能を搭載。",
-      tech: ["React", "Firebase", "Tailwind CSS"],
-      link: "https://example.com",
-      github: "https://github.com/username/project2",
+      title: "選挙情報プラットフォーム",
+      year: "2025",
+      description: "",
+      tech: ["PHP", "Laravel", "MySQL", "JavaScript", "JSON Data Management", "UI/UX Tuning"],
+      link: "https://mobalab.net/works/senkyocom/",
+      github: ""
     },
     {
-      title: "天気予報ダッシュボード",
-      year: "2023",
-      description: "複数の都市の天気情報を視覚的に表示するダッシュボード。外部APIと連携してリアルタイムデータを取得。",
-      tech: ["Vue.js", "Chart.js", "API"],
-      github: "https://github.com/username/project3",
+      title: "障がい福祉サービス事業所検索サイト",
+      year: "2022 - 2023",
+      description: "",
+      tech: ["PHP", "Laravel", "MySQL", "JavaScript", "UI/UX Tuning"],
+      link: "https://mobalab.net/works/fukucie/",
+      github: "",
+    },
+    {
+      title: "百人一首の達人",
+      year: "2014",
+      description: "",
+      tech: ["Visual Basic", "HTML5/CSS3"],
+      link: "https://www.youtube.com/watch?v=dkZON4t2Iu4",
+      github: "https://github.com/KentoIkeda/hyakuninissyunotatsujin",
+    },
+    {
+      title: "THE INTERVIEW+",
+      year: "2013",
+      description: "",
+      tech: ["Visual Basic", "HTML5/CSS3"],
+      link: "",
+      github: "https://github.com/KentoIkeda/the_interview_plus",
     },
   ];
 
@@ -110,16 +127,16 @@ export default function Portfolio() {
     return (
       <div className="fixed inset-0 bg-white z-50 flex items-center justify-center">
         <div className="text-center animate-fade-in">
-          <h1 
+          <h1
             className="text-5xl md:text-7xl font-normal tracking-widest mb-4"
-            style={{ 
+            style={{
               fontFamily: "'Noto Serif JP', serif",
               animation: "fadeInUp 1s ease-out"
             }}
           >
             {profile.nameEn}
           </h1>
-          <div 
+          <div
             className="w-32 h-px bg-black mx-auto"
             style={{ animation: "expandWidth 1s ease-out 0.5s both" }}
           />
@@ -155,9 +172,8 @@ export default function Portfolio() {
       <section
         id={id}
         ref={ref}
-        className={`${className} transition-all duration-1000 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
-        }`}
+        className={`${className} transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+          }`}
       >
         {children}
       </section>
@@ -280,7 +296,7 @@ export default function Portfolio() {
           <div className="relative">
             {/* 縦線 */}
             <div className="absolute left-0 top-0 bottom-0 w-px bg-gray-200" />
-            
+
             <div className="space-y-12">
               {career.map((item, index) => (
                 <div
@@ -350,10 +366,7 @@ export default function Portfolio() {
             WORKS
           </h2>
           <div className="space-y-24">
-            <div>
-              Comming Soon
-            </div>
-            {/* works.map((work, index) => (
+            {works.map((work, index) => (
               <div key={index} className="border-t border-gray-200 pt-12">
                 <div className="flex flex-col md:flex-row md:justify-between gap-4 mb-6">
                   <h3 className="text-3xl md:text-4xl font-normal">
@@ -404,7 +417,7 @@ export default function Portfolio() {
                   )}
                 </div>
               </div>
-            ))*/}
+            ))}
           </div>
         </div>
       </AnimatedSection>
